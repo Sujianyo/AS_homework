@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/M_layout"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <ImageView
+        android:id="@+id/imageViewM"
+        android:layout_width="16dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:srcCompat="@tools:sample/avatars" />
+    <LinearLayout
+        android:layout_width="304dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textViewM1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="联系人"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textViewM2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="消息"
+        android:textSize="25dp" />
+</LinearLayout>
+</LinearLayout>

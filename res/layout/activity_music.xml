@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MusicActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Music"
+        android:textSize="50dp"
+        android:textColor="#3F51B5" />
+
+    <Button
+        android:id="@+id/buttonM1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:insetTop="32dp"
+        android:textSize="35dp"
+        android:text="startService1" />
+
+    <Button
+        android:id="@+id/buttonM2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:insetTop="32dp"
+        android:textSize="35dp"
+        android:text="stopService1" />
+
+    <Button
+        android:id="@+id/buttonM3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:insetTop="32dp"
+        android:textSize="35dp"
+        android:text="绑定服务2" />
+
+    <Button
+        android:id="@+id/buttonM4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:insetTop="32dp"
+        android:textSize="35dp"
+        android:text="解除绑定" />
+
+</LinearLayout>
